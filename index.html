@@ -1,0 +1,164 @@
+<html>
+
+	<head>
+		<title>Roadside Assitance Inbound Script</title>
+
+		<script src="lib/jquery-3.3.1/jquery-3.1.1.min.js"></script>
+		<script src="lib/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="lib/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css"
+	</head>
+
+	<body>
+
+		<div class="container-fluid" id="everything">
+			<div class="row" id="topportion">
+
+				<div class="col-xs-2" id="sidebar">
+					<table cellspacing="0">
+						<thead>
+							<th>Rebuttals</th>
+						</thead>
+						<tbody>
+							<tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Customer does not have Credit Card:"
+							data-content="That&#39;s not a problem at all. We can use your bank debit card. The first thing I need to do is verify the expiration date when you look at the front of the card. It should say &#39;GOOD THRU&#39; or &#39;VALID TIL&#39;"
+							>No Card</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Card fails upon Pre-Authorization:"
+							data-content="Unfortunately, my system is showing me that we cannot get you started with this card. What is the expiration date on your other card?"
+							>Card Fails</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Customer is uncomfortable using their card over the phone:"
+							data-content="I can appreciate your discomfort using your card over the phone, but the main reason that we do bill through the card is simply because you are completely protected by your card company. You see (customer name), under a FEDERAL LAW called the CONSUMER FRAUD PROTECTION ACT, it states that if we or any other company billed something to your card without your approval or if we didn't send you exactly what we promised, your card company must protect you by allowing ou to dispute the charge. Now, if you did that, it would not only damage our excellent reputation as a company, but it could also cause us to lose our privilege to bill our customers through major Credit Cards. So, honestly, to charge something to your account without your approval would be extremely counterproductive. Remember, your only obligation is $1.95. So, what I need to do now is for you to verify the expiration date on the front of your card."
+							>Card over Phone</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Encryption:"
+							data-content="We do enter all of your information into an encrypted system for your protection. Let me give you an example. You know when you go to an ATM machie and put in your ATM card? Instead of your pin number apearing on the screen, you just get a row of X&#39;s. This way, no one has access to your account number.Now, I do need to validate the exact month and year of the expiration of the credit card..."
+							>Encryption</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Customer wants to use Amex or Discover:"
+							data-content="I&#39;m sorry we only accept Visa and Mastercard. We can also use your bank card. The first thing I need to do is verify the expiration date."
+							>Amex/Discover</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Does 24/7 Road Assist work if I leave the state?"
+							data-content="24/7 Road Assist does provide you with assistance all across the country even if you are traveling. We even include travel and automotive discounts that you can use nationwide at no additional charge. OK?"
+							>Leaving State</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Customer Objects to Auto Program:"
+							data-content="This program is designed to save you money.  We provide you with full access to the program for 30 days. This way, you can take advantage of the savings and make an informed decision on whether or not the program will benefit you. Your only obligation is the $1.95, so the only way you would pay the monthly fee, is if you like the program and decide to stay a member after the trial, OK?"
+							>Objects to AP</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="Not Interested because I will forget to call and cancel"
+							data-content="I understand your concern. That&#39;s why we give you the toll free numbers today as well as in your welcome package. Keep in mind; you don’t have to wait the entire 30 days. Once you get the package, take a look at the materials and if it doesn’t work for you, simply pick up the phone. It&#39;s that easy. OK?"
+							>Will Forget Cancel</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="When does the trial start?"
+							data-content="Remember, it&#39;s only a 30 day trial, which starts tomorrow. And you’re only billed the $1.95 today. Everything is processed, and sent out tomorrow so you have a full 30 days to try it out. That way you have nothing to lose, right?"
+							>Trial Starts When</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="I don't drive/I don't have a car:"
+							data-content="That&#39;s OK!  Our program also allows you to protect up to 3 additional drivers in your family. Not to mention the discounts on hotels, theme parks, and car rentals, so you’re still able to take advantage of all our great services, Ok? "
+							>Don't Drive/No Car</button> </td></tr><tr><td>
+							<button id="" 
+							class="btn btn-secondary full"
+							data-toggle="popover"
+							title="I am already enrolled in a similar program:"
+							data-content="We are not asking you to cancel your existing service, but instead give you a 30 day trial on our program to compare both and see what you feel is best.  If anytime during the 30 days you decide it's not for you, or that you have no use for it, simply call the toll free number provided to cancel anytime, and no matter what you decide the visa gift card is yours to keep, ok?"
+							>Enrolled in Similar</button>
+							</td></tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="col-xs-10" id="mainscreen">
+
+					<embed src="docs/mainscript.pdf#FitW" id="scriptembed"/>
+
+				</div>	
+
+			</div>
+			<div class="row" id="bottomportion">
+
+				<div class="col-xs-12" id="creditcard">
+
+					<div id="form" class="row nofluff">
+
+						<div class="col-xs-3 nofluff" style="height: 100%; text-align: center">
+
+							<h1 align="center">Accepted Credit Cards:</h1>
+
+						</div>
+
+						<div class="col-xs-3 nofluff" style="height: 100%">
+
+							<img src="img/visa_mastercard.png" class="fit"/>
+
+						</div>
+
+						<div class="col-xs-5 nofluff" style="height: 100%">
+
+							<div class="row nofluff" style="height: 50%">
+
+								<div class="col-xs-6 nofluff">
+
+									<input type="text" id="mmyy" class="littleleft" placeholder="MMYY" />
+
+								</div>
+								<div class="col-xs-6 nofluff">
+
+									<input type="text" id="cvv" class="littleright" placeholder="CVV" />
+
+								</div>
+
+							</div>
+							
+							<div class="row nofluff" style="height: 50%">
+
+								<input type="text" id="cc" class="big" placeholder="4444333322221111" />
+
+							</div>	
+
+						</div>
+
+
+						<div class="col-xs-1 nofluff">
+
+							<button id="submit" class="btn btn-secondary tall">GO</button>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<script src="js/userexperience.js"></script>
+		<script src="js/creditcard.js"></script>
+
+	</body>
+</html>
